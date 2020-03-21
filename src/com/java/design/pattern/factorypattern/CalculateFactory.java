@@ -1,10 +1,9 @@
 package com.java.design.pattern.factorypattern;
 
-import java.util.Scanner;
 
 public class CalculateFactory {
 
-	public Calculator getCalculator(String opt) {
+	public static Calculator getCalculator(String opt) {
 		
 		Calculator c;
 		

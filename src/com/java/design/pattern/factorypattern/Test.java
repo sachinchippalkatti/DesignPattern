@@ -2,6 +2,8 @@ package com.java.design.pattern.factorypattern;
 
 import java.util.Scanner;
 
+import javax.xml.parsers.DocumentBuilderFactory;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -17,9 +19,10 @@ public class Test {
 		System.out.println("Enter operation to be performed");
 		String opt= keyboard.next();
 		
-		CalculateFactory factory = new CalculateFactory();
-		obj = factory.getCalculator(opt);
+		obj = CalculateFactory.getCalculator(opt);
 		obj.calculate(a, b);
+		
+		
 	}
 
 }

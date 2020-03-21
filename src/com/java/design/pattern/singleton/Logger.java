@@ -1,4 +1,4 @@
-package com.java.design.pattern;
+package com.java.design.pattern.singleton;
 
 
 //How to create singleton class
